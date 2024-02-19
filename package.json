@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "jest --runInBand --detectOpenHandles --forceExit"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "puppeteer": "^20.1.0"
+  },
+  "autograding": {
+    "setup": "cd ./node_modules/puppeteer && npm run postinstall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalCareerInstitute/UIB-layout-grid-meets-flexbox",
+    "id": 310327596
+  }
+}
